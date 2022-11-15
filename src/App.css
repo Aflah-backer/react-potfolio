@@ -271,6 +271,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 16px;
   display: inline-block;
 }
+.linkToconnect {
+  text-decoration: none;
+}
 .banner h1 {
   font-size: 65px;
   font-weight: 700;

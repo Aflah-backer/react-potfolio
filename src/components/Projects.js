@@ -30,7 +30,7 @@ export const Projects = () => {
     },
     {
       title: "Hotel Booking",
-      description: "Aooking Website",
+      description: "Booking Website",
       imgUrl: projImg3,
     },
   ];
@@ -58,6 +58,7 @@ export const Projects = () => {
       title: "Netflix-clone",
       description: "Full Responsive website using React",
       imgUrl: netflix,
+      Link:"https://react-netflix-clone-test.herokuapp.com/"
     },
     {
       title: "Tesla-clone",
@@ -108,37 +109,37 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Major Projects</Nav.Link>
+                        <Nav.Link eventKey="first">Static Web & Portfolio</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Mini Projects</Nav.Link>
+                        <Nav.Link eventKey="second">Major Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Static Web & Portfolio</Nav.Link>
+                        <Nav.Link eventKey="third">Mini Projects</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content>
-                      <Tab.Pane eventKey="first">
-                        <Row>
-                          {majorProjects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="second">
-                      <Row>
-                          {miniProjects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="first">
                       <Row>
                           {webClone.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <Row>
+                          {majorProjects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                      <Row>
+                          {miniProjects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>               
                     </Tab.Content>
                   </Tab.Container>
                 </div>

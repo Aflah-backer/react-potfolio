@@ -75,12 +75,12 @@ export const Banner = () => {
                     specialization in full-stack development, solve difficult
                     problems
                   </p>
-                  {/* <HashLink to="#connect">
-                  </HashLink> */}
-                  <button onClick={() => console.log("connect")}>
+                  <a href="#connect" className="linkToconnect">
+                  <button>
                     Let's connect{" "}
                     <ArrowRightCircle size={25}></ArrowRightCircle>
                   </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
