@@ -22,16 +22,20 @@ export const Projects = () => {
       title: "BenefitsBeats",
       description: "E-Commerce-Website",
       imgUrl: projImg1,
+      webLink:"https://benefitsbeats.herokuapp.com/",
+      gitLink:"https://github.com/Aflah-backer/e-commerce-website-benefits"
     },
     {
       title: "Chatsapp",
       description: "Chat Application",
       imgUrl: projImg2,
+      gitLink:"https://github.com/Aflah-backer/ChatsApp_websocket"
     },
     {
       title: "Hotel Booking",
       description: "Booking Website",
       imgUrl: projImg3,
+      gitLink:"https://github.com/Aflah-backer/HotelBooking"
     },
   ];
 
@@ -40,16 +44,19 @@ export const Projects = () => {
       title: "My Incubation Management",
       description: "Slot Booking",
       imgUrl: incubation,
+      gitLink:"https://github.com/Aflah-backer/MyIncubationManagment"
     },
     {
       title: "User Management",
       description: "Use CRUD Opration",
       imgUrl: usermanagement,
+      gitLink:"https://github.com/Aflah-backer/UserManagment"
     },
     {
       title: "ToDo List",
       description: "Todo list",
       imgUrl: todo,
+      gitLink:"https://github.com/Aflah-backer/ToDo_project_in_React"
     },
   ];
 
@@ -58,32 +65,42 @@ export const Projects = () => {
       title: "Netflix-clone",
       description: "Full Responsive website using React",
       imgUrl: netflix,
-      Link:"https://react-netflix-clone-test.herokuapp.com/"
+      webLink:"https://react-netflix-clone-test.herokuapp.com/",
+      gitLink:"https://github.com/Aflah-backer/React_Netflix_clone"
     },
     {
       title: "Tesla-clone",
       description: "Responsive website using bootstrap and media query",
       imgUrl: tesla,
+      webLink:"https://aflah-backer.github.io/tesla-clone/",
+      gitLink:"https://github.com/Aflah-backer/tesla-clone"
     },
     {
       title: "The Boring Company - Clone",
       description: "Static website using html and css",
       imgUrl: boringcom,
+      webLink:"https://aflah-backer.github.io/The-boring-company-clone/",
+      gitLink:"https://github.com/Aflah-backer/The-boring-company-clone"
     },
     {
       title: "Personal website",
       description: "My first personal website using html,css and javaScript",
       imgUrl: firstPotfolio,
+      webLink:"https://aflah-backer.github.io/personalWeb/",
+      gitLink:"https://github.com/Aflah-backer/personalWeb"
     },
     {
       title: "PortFolio",
       description: "Portfolio using html,css and javaScript",
       imgUrl: Potfolio,
+      webLink:"https://aflah-backer.github.io/My_portfolio/",
+      gitLink:"https://github.com/Aflah-backer/My_portfolio"
     },
     {
       title: "PortFolio",
       description: "Portfolio using html, css, javaScript and React",
       imgUrl: reactPotfolio,
+      gitLink:"https://github.com/Aflah-backer/react-potfolio"
     },
   ];
 
